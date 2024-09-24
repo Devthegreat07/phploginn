@@ -1,0 +1,59 @@
+body {
+    background-image: url('img3.jpg');
+    background-size: cover;
+    /* Ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-position: center;
+    /* Centers the image */
+}
+
+#form {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* White background with 80% opacity */
+    width: 25%;
+    border-radius: 4px;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgba(82, 11, 77, 0.8);
+    /* Box shadow with 80% opacity */
+}
+
+#btn {
+    color: rgb(255, 255, 255);
+    /* White text color */
+    background-color: rgba(108, 22, 189, 0.8);
+    /* Purple background with 80% opacity */
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    /* Remove default border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    margin-right: 30px;
+    /* Increase space between buttons */
+}
+
+#signup-btn {
+    color: rgb(255, 255, 255);
+    /* White text color */
+    background-color: rgba(108, 22, 189, 0.8);
+    /* Purple background with 80% opacity */
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    /* Remove default border */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+@media screen and (max-width: 570px) {
+    #form {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+    }
+}
